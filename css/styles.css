@@ -47,6 +47,7 @@ ul {
 
 .header {
   padding: 24px 156px;
+  border-bottom: 1px solid #e7e9fc;
 }
 
 .header-container {
@@ -158,6 +159,7 @@ ul {
 .hero-btn:focus {
   background-color: var(--interactive-color);
 }
+
 .main-subtitle {
   font-weight: 500;
   font-size: 20px;
@@ -179,23 +181,56 @@ ul {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--title-text-color);
+  margin-bottom: 72px;
 }
+
 .activity-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
 }
+
+.container-advantages {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.advantages-list {
+  display: flex;
+  gap: 24px;
+}
+
+.activity-list {
+  display: flex;
+  gap: 24px;
+}
+
+.container-activity {
+  padding-bottom: 120px;
+}
+
+.team-container {
+  margin-bottom: 120px;
+}
+
 .team {
   background-color: var(--footer-text-color);
+}
+
+.team-list {
+  display: flex;
+  gap: 24px;
 }
 .team-list-item {
   background-color: var(--white-text-color);
 }
+
 .team-subtitle,
 .team-text {
   text-align: center;
 }
+
 .footer {
   background-color: var(--title-text-color);
 }
@@ -208,8 +243,14 @@ ul {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--footer-text-color);
+  max-width: 264px;
+  margin-top: 16px;
 }
 
+.footer-container {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
 /* PORTFOLIO */
 
 .portfolio {
