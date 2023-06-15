@@ -83,6 +83,9 @@ img {
 .header-menu {
   display: flex;
   gap: 40px;
+}
+
+.header-menu-list {
   padding: 24px 0;
 }
 
