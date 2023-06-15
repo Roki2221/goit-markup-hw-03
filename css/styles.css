@@ -51,7 +51,6 @@ img {
 }
 
 .header {
-  padding: 24px 0;
   border-bottom: 1px solid #e7e9fc;
 }
 
@@ -59,6 +58,7 @@ img {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding: 24px 0;
 }
 
 .header-navigation {
@@ -126,8 +126,7 @@ img {
   padding-top: 188px;
   padding-bottom: 188px;
 }
-.container-hero {
-}
+
 .hero-title {
   font-weight: 700;
   font-size: 56px;
@@ -200,7 +199,7 @@ img {
   letter-spacing: 0.02em;
 }
 
-.container-advantages {
+.advantages {
   padding-top: 120px;
   padding-bottom: 120px;
 }
