@@ -166,6 +166,7 @@ ul {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--title-text-color);
+  margin-bottom: 8px;
 }
 .main-item-text {
   font-size: 16px;
@@ -184,6 +185,9 @@ ul {
   margin-bottom: 72px;
 }
 
+.link-img {
+  margin-bottom: 32px;
+}
 .activity-title {
   font-weight: 700;
   font-size: 36px;
@@ -256,6 +260,9 @@ ul {
 .portfolio {
 }
 .portfolio-sorting {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
 }
 
 .portfolio-btn {
@@ -268,6 +275,15 @@ ul {
   background-color: var(--footer-text-color);
   cursor: pointer;
   font-family: 'Roboto', sans-serif;
+  border: 1px solid #e7e9fc;
+  border-radius: 4px;
+  padding: 12px 24px;
+  margin-bottom: 72px;
+}
+
+.container-btn {
+  padding-top: 96px;
+  padding-bottom: 120px;
 }
 
 .portfolio-btn:hover {
@@ -278,4 +294,10 @@ ul {
 .portfolio-btn:focus {
   color: var(--white-text-color);
   background-color: var(--interactive-color);
+}
+
+.portfolio-list {
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
 }
