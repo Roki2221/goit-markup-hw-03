@@ -29,6 +29,11 @@ ul {
   margin-bottom: 0;
   padding-left: 0;
 }
+
+img {
+  display: block;
+}
+
 .link {
   text-decoration: none;
   color: var(--main-color);
@@ -46,7 +51,7 @@ ul {
 }
 
 .header {
-  padding: 24px 156px;
+  padding: 24px 0;
   border-bottom: 1px solid #e7e9fc;
 }
 
@@ -118,10 +123,10 @@ ul {
 /* MAIN */
 .hero {
   background-color: var(--title-text-color);
-}
-.container-hero {
   padding-top: 188px;
   padding-bottom: 188px;
+}
+.container-hero {
 }
 .hero-title {
   font-weight: 700;
@@ -205,6 +210,12 @@ ul {
   gap: 24px;
 }
 
+.advantages-list-item {
+  width: calc((100% - 3 * 24px) / 4);
+}
+.visually-hidden {
+  visibility: hidden;
+}
 .activity-list {
   display: flex;
   gap: 24px;
